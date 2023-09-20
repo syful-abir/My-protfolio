@@ -408,6 +408,20 @@ nav ul li a:hover {
     border-radius: 3rem;
 }
 
+.fa-solid {
+    padding: 20px 20px;
+    box-shadow: 6px 6px 12px #bababa,
+        -6px -6px 12px #ffffff;
+    border-radius: .5rem;
+    display: inline;
+}
+
+.icon {
+    height: auto;
+    margin-left: 90%;
+    margin-top: 2px;
+}
+
 /*====================
 **contact style end** 
  =====================*/
