@@ -408,7 +408,7 @@ nav ul li a:hover {
     border-radius: 3rem;
 }
 
-.fa-solid {
+.icons {
     padding: 20px 20px;
     box-shadow: 6px 6px 12px #bababa,
         -6px -6px 12px #ffffff;
@@ -424,4 +424,36 @@ nav ul li a:hover {
 
 /*====================
 **contact style end** 
+ =====================*/
+
+
+/*====================
+**footer style start** 
+ =====================*/
+.footer {
+    width: 96%;
+    margin: auto;
+    box-shadow: 6px 6px 12px #bababa,
+        -6px -6px 12px #ffffff;
+    margin-top: 60px;
+    border-radius: .5rem;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-text p {
+    margin: 11px;
+}
+
+.footer-text h1 {
+    margin-top: 11px;
+}
+
+/*====================
+**footer style end** 
  =====================*/
