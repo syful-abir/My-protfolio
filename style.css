@@ -24,6 +24,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px 8%;
+    box-shadow: 6px 6px 12px #bababa,
+        -6px -6px 12px #ffffff;
+    border-radius: .5rem;
 }
 
 .logo {
@@ -239,8 +242,8 @@ nav ul li a:hover {
 
 .service-container {
     display: flex;
-    justify-content: space-around;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .service-container .box-overlay {
@@ -261,8 +264,6 @@ nav ul li a:hover {
 .service-container .box-overlay i {
     font-size: 2rem;
     padding: 30px 25px;
-    transition: all .4s ease-in;
-    transition-delay: 0.1s;
 
 }
 
@@ -270,17 +271,14 @@ nav ul li a:hover {
     font-size: .8rem;
     font-weight: 500;
     text-transform: uppercase;
-    transition: all .4s ease-in;
-    transition-delay: 0.3s;
 }
 
 .service-container .box-overlay .btn-overfloy {
     padding: .4rem 2rem;
     margin: 1rem 0 1rem;
     font-weight: 700;
-    background: #e0e0e0e0;
-    transition: all .4s ease-in;
-    transition-delay: 0.5s;
+    background: #000;
+    color: #fff;
 }
 
 .service-container .box-overlay::after {
@@ -297,11 +295,119 @@ nav ul li a:hover {
 
 }
 
-.service-container .box-overlay:hover {
-    transform: translateY(-8px);
+.service-container .box-overlay:hover .btn-overfloy:hover {
+    background-color: #e81c;
+    transition: 0.75s;
 
 }
 
 /*====================
 **service style end** 
+ =====================*/
+
+
+/*====================
+**protfolio style start** 
+ =====================*/
+.protfolio .title h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.protfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.protfolio-container .protflio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 12px #bababa,
+        -6px -6px 12px #ffffff;
+    overflow: hidden;
+    display: flex;
+}
+
+.protflio-box img {
+    width: 100%;
+    transition: 0.5s ease;
+
+}
+
+.protflio-box:hover img {
+    transform: scale(1.1);
+}
+
+/*====================
+**protfolio style end** 
+ =====================*/
+
+/*====================
+**contact style start** 
+ =====================*/
+.contact .title h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact-contant .row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-contant .box {
+    padding: 1.2rem .8rem;
+    border-radius: .5rem;
+    box-shadow: 6px 6px 12px #bababa,
+        -6px -6px 12px #ffffff;
+    text-align: center;
+}
+
+.box .box-info h3 {
+    padding: 10px 0;
+}
+
+.contact-contant i {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.contact-contant .contact-form {
+    width: 700px;
+    padding: 1.4rem 4.5rem;
+    background: transparent;
+    margin: 1.8rem 0;
+    box-shadow: 6px 6px 12px #bababa,
+        -6px -6px 12px #ffffff;
+    border-radius: .5rem;
+}
+
+.contact-contant input,
+.contact-contant textarea {
+    width: 100%;
+    border: none;
+    border-radius: 3rem;
+    padding: .9rem;
+    margin: .3rem 0;
+    font-size: 85%;
+    font-family: inherit;
+    font-weight: bold;
+    background: #e0e0e0e0;
+    color: #212121;
+    box-shadow: inset 6px 6px 12px #bababa,
+        inset -6px -6px 12px #ffffff;
+}
+
+.contact-contant .btn-overfloy {
+    border-radius: 3rem;
+}
+
+/*====================
+**contact style end** 
  =====================*/
