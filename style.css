@@ -416,15 +416,19 @@ nav ul li a:hover {
     display: inline;
 }
 
+/*====================
+**contact style end** 
+ =====================*/
+
+/*-------- icon style start -------*/
+
 .icon {
     height: auto;
     margin-left: 90%;
     margin-top: 2px;
 }
 
-/*====================
-**contact style end** 
- =====================*/
+/*------- icon style end -----------*/
 
 
 /*====================
