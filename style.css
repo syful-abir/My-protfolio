@@ -134,8 +134,9 @@ nav ul li a:hover {
     background: transparent;
 }
 
-.btn-overfloy:hover {
-    background-color: #bababa;
+.left .btn-overfloy:hover {
+    box-shadow: inset 6px 6px 12px #bababa,
+        inset -6px -6px 12px #ffffff;
 }
 
 .home .social-icons i {
@@ -153,7 +154,8 @@ nav ul li a:hover {
 }
 
 .home .social-icons i:hover {
-    background-color: #bababa;
+    box-shadow: inset 6px 6px 12px #bababa,
+        inset -6px -6px 12px #ffffff;
 }
 
 .home .right {
@@ -224,6 +226,11 @@ nav ul li a:hover {
 
 .right p {
     margin-bottom: 20px;
+}
+
+.right .btn-overfloy:hover {
+    box-shadow: inset 6px 6px 12px #bababa,
+        inset -6px -6px 12px #ffffff;
 }
 
 /*====================
@@ -400,6 +407,15 @@ nav ul li a:hover {
     font-weight: bold;
     background: #e0e0e0e0;
     color: #212121;
+    box-shadow: inset 6px 6px 12px #bababa,
+        inset -6px -6px 12px #ffffff;
+}
+
+.contact-contant .btn-overfloy {
+    border-radius: 3rem;
+}
+
+.contact-contant .btn-overfloy:hover {
     box-shadow: inset 6px 6px 12px #bababa,
         inset -6px -6px 12px #ffffff;
 }
