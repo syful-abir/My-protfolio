@@ -477,3 +477,169 @@ nav ul li a:hover {
 /*====================
 **footer style end** 
  =====================*/
+
+/*====================
+ media quary style end  
+ =====================*/
+
+/*-------------------
+  mobail device style 
+  --------------------*/
+@media only screen and (max-width: 600px) {
+
+    /*------------------- 
+    home style start here 
+    --------------------*/
+    .container-home {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .left {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .home .left h1 span {
+        font-size: 2rem;
+    }
+
+    .home .right img {
+        width: 100%;
+        height: auto;
+        border-radius: 1.8rem;
+        box-shadow: 6px 6px 12px #bababa,
+            -6px -6px 12px #ffffff;
+    }
+
+    /*------------------- 
+    home style start here 
+    --------------------*/
+
+
+    /*------------------- 
+    about style start here 
+    --------------------*/
+
+    .about-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about .right {
+        text-align: center;
+    }
+
+    .title h2 {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .about .left img {
+        width: 100%;
+        height: auto;
+        box-shadow: 6px 6px 12px #bababa,
+            -6px -6px 12px #ffffff;
+        border-radius: .5rem 50% .5rem .5rem;
+        transition: all .4s ease-in;
+    }
+
+    /*------------------- 
+    about style start here 
+    --------------------*/
+
+    /*------------------- 
+    service style start here 
+    --------------------*/
+
+    .service-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .service-container .box-overlay {
+        width: 100%;
+        height: auto;
+    }
+
+    .service .title h2 {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 60px;
+    }
+
+
+    /*------------------- 
+    service style start here 
+    --------------------*/
+
+
+    /*------------------- 
+    protfolio style start here 
+    --------------------*/
+    .protfolio-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .protfolio .title h2 {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 60px;
+    }
+
+    /*------------------- 
+    protfolio style start here 
+    --------------------*/
+
+    /*------------------- 
+    contact style start here 
+    --------------------*/
+    .contact .title h2 {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 60px;
+    }
+
+    .contact-contant .row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-contant .box {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .contact-contant .contact-form {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    /*------------------- 
+    contact style start here 
+    --------------------*/
+
+    .icons {
+        width: 100%;
+        margin-top: 30px;
+        padding-right: 20px;
+
+    }
+}
+
+/*-------------------
+  mobail device style 
+  --------------------*/
+
+/*====================
+ media quary style end
+ =====================*/
