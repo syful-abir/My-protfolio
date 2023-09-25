@@ -628,11 +628,10 @@ nav ul li a:hover {
     contact style start here 
     --------------------*/
 
-    .icons {
-        width: 100%;
-        margin-top: 30px;
-        padding-right: 20px;
-
+    .icon {
+        height: auto;
+        margin-left: 80%;
+        margin-top: 50px;
     }
 }
 
