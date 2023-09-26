@@ -493,7 +493,7 @@ nav ul li a:hover {
     .container-home {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
+        /* gap: 2rem; */
     }
 
     .left {
@@ -508,6 +508,7 @@ nav ul li a:hover {
     .home .right img {
         width: 100%;
         height: auto;
+        margin-top: 5px;
         border-radius: 1.8rem;
         box-shadow: 6px 6px 12px #bababa,
             -6px -6px 12px #ffffff;
@@ -532,17 +533,19 @@ nav ul li a:hover {
     }
 
     .title h2 {
-        margin-top: 15%;
+        margin-top: 18%;
         text-align: center;
     }
 
     .about .left img {
         width: 100%;
         height: auto;
-        box-shadow: 6px 6px 12px #bababa,
-            -6px -6px 12px #ffffff;
-        border-radius: .5rem 50% .5rem .5rem;
-        transition: all .4s ease-in;
+        margin-top: 2px;
+    }
+
+    .about-container {
+        gap: 0rem;
+
     }
 
     /*------------------- 
@@ -566,8 +569,8 @@ nav ul li a:hover {
 
     .service .title h2 {
         text-align: center;
-        margin-top: 18%;
-        margin-bottom: 60px;
+        margin-top: 23%;
+        margin-bottom: 20px;
     }
 
 
@@ -588,8 +591,8 @@ nav ul li a:hover {
 
     .protfolio .title h2 {
         text-align: center;
-        margin-top: 18%;
-        margin-bottom: 60px;
+        margin-top: 23%;
+        margin-bottom: 20px;
     }
 
     /*------------------- 
@@ -601,8 +604,8 @@ nav ul li a:hover {
     --------------------*/
     .contact .title h2 {
         text-align: center;
-        margin-top: 18%;
-        margin-bottom: 60px;
+        margin-top: 23%;
+        margin-bottom: 20px;
     }
 
     .contact-contant .row {
@@ -622,6 +625,18 @@ nav ul li a:hover {
         width: 95%;
         margin: auto;
         margin-top: 20px;
+    }
+
+    .contact-contant .contact-form {
+        position: relative;
+    }
+
+    .contact-contant input,
+    .contact-contant textarea {
+        width: 143%;
+        margin: .3rem 0;
+        position: relative;
+        right: 50px;
     }
 
     /*------------------- 
